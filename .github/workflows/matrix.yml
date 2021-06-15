@@ -1,6 +1,7 @@
 name: Matrix
 
-on: push
+# change to pull request, otherwise everytime will run
+on: pull_request
 
 jobs:
   node-version:
